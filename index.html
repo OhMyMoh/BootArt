@@ -14,35 +14,24 @@
     ></script>
   </head>
   <body style="background-color: rgb(161, 207, 248)">
-    <div class="header">
-      <h1
-        style="
-          background-color: rgb(14, 14, 62);
-          color: aliceblue;
-          padding: 20px 3rem;
-        "
-      >
-        <i class="fa-solid fa-bars" style="padding-right: 35rem"></i>Charlie's
-        Suits
-      </h1>
-    </div>
-    <div class="header1">
-      <ul class="d-none">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Collection</a></li>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Cart</a></li>
-        <li><a href="#">Signin</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(14, 14, 62);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Charlie's Suits</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#collection">Collection</a></li>
+        <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="signin.html">Signin</a></li>
       </ul>
     </div>
-
-    <a href="cart.html" class="btn btn-outline-primary position-relative">
-      🛒 Cart
-      <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-        0
-      </span>
-    </a>
-    
+  </div>
+</nav>
 
     <div class="col-mb-4">
       <h2>BLAZERS</h2>
@@ -312,7 +301,7 @@
       </div>
     </div>
     <div class="footer-li" style="background-color: rgb(14, 14, 62);">
-        <ul class="d-flex" style="">
+        <ul class="d-flex">
           <li><a href="">FAQ</a></li>
           <li><a href="">Shipping & Returns</a></li>
           <li><a href="">Size Guide</a></li>
@@ -345,6 +334,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script></script>
   </body>
 </html>
